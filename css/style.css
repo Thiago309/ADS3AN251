@@ -10,9 +10,47 @@ body {
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
+/*	background: beige;*/
 }
 
 /*	========== CABEÇALHO ==========	*/
 header {
 	background: #24388b;
+	padding: 10px 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+ul {
+	margin: 36px 0 0 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: inline;
+	margin: 0 16px 0 0 ;
+}
+
+li:last-child {
+	margin: 0;
+}
+
+li a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+li a:hover {
+	color: cyan;
+	transition: color 0.3s;
+}
+
+li a span {
+	color: cyan;
+	font-size: 14px;
+	
 }
