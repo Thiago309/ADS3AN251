@@ -53,7 +53,7 @@ li a span{
 	color: cyan;
 	font-size: 14px;
 	display: inline-block;
-	transform: rotate(- 180deg); /*Comando para a seta ir para cima no momento que
+	transform: rotate(-180deg); /*Comando para a seta ir para cima no momento que
 								 passar o mouse em cima da seta.*/
 	transition: transform 0.3s;						 
 }
