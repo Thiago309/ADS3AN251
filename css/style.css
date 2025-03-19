@@ -1,4 +1,4 @@
-/*	========== GERAL ==========	*/
+/* =========== GERAL =========== */
 
 body {
 	margin: 0;
@@ -13,7 +13,8 @@ body {
 /*	background: beige;*/
 }
 
-/*	========== CABEÇALHO ==========	*/
+/* =========== CABEÇALHO =========== */
+
 header {
 	background: #24388b;
 	padding: 10px 0;
@@ -31,7 +32,7 @@ ul {
 
 li {
 	display: inline;
-	margin: 0 16px 0 0 ;
+	margin: 0 16px 0 0;
 }
 
 li:last-child {
@@ -49,48 +50,93 @@ li a:hover {
 	transition: color 0.3s;
 }
 
-li a span{
+li a span {
 	color: cyan;
 	font-size: 14px;
 	display: inline-block;
-	transform: rotate(-180deg); /*Comando para a seta ir para cima no momento que
-								 passar o mouse em cima da seta.*/
-	transition: transform 0.3s;						 
+	transform: rotate(-180deg);	/*Comando para a seta ir para cima no momento que
+								passar o mouse em cima da seta.*/
+	transition: transform 0.3s;
 }
 
-li:hover a span{ /*Quando passar o mouse em cima da palavra, executa a movimentação*/
+li:hover a span {	 /*Quando passar o mouse em cima da palavra, executa a movimentação*/
 	transform: rotate(0);
-	transition: transform 0.3s;						 
+	transition: transform 0.3s;
 }
 
-/*	========== SEÇÃO 1 ==========	*/
+/* =========== SEÇÃO 1 =========== */
 
-.blocoFigura{
+.blocoFigura {
 	width: 360px;
 	margin-top: 50px;
 }
 
-.blocoFigura figure{
+.blocoFigura figure {
 	margin: 0;
 }
 
-.blocoFigura figure img{
+.blocoFigura figure img {
 	max-width: 100%;
 }
 
-.blocoFigura h2{
+.blocoFigura h2 {
 	margin: 5px 0 0 0;
 	text-align: center;
 }
 
-.blocoFigura a{
+.blocoFigura a {
 	text-decoration: none;
 	color: #2593d1;
 	opacity: 1;
 	transition: opacity 0.3s;
 }
 
-.blocoFigura a:hover{	/*hover é um comando de efeito em um determinado item*/
+.blocoFigura a:hover {	/*hover é um comando de efeito em um determinado item*/
 	opacity: 0.7;
 	transition: opacity 0.3s;
+}
+
+/* =========== SEÇÃO 2 =========== */
+
+.container2 {
+	max-width: 1152px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+h3 {
+	width: 1152px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 40px;
+}
+
+p {
+	width: 560px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+/* =========== SEÇÃO 3 =========== */
+
+iframe {
+	width: 1152px;
+	height: 450px;
+	border: 0;
+	margin-top: 20px;
+}
+
+/* =========== RODAPÉ =========== */
+
+footer {
+	background: #24388b;
+	margin-top: 50px;
+}
+
+h4 {
+	color: #fff;
+	font-size: 20px;
 }
